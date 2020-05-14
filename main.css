@@ -201,3 +201,32 @@ i:hover {
 #location {
   color: white;
 }
+
+figure {
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  position: relative;
+}
+
+figure iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.lang {
+  color: rgba(7, 115, 122, 1);
+  font-weight: 900;
+  padding-left: 2rem
+}
+
+a {
+  color: rgba(7, 115, 122, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightcoral;
+}
